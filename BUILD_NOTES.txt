@@ -1,0 +1,8 @@
+NX 2412 conversion package
+
+Files:
+- InnerCavityExtractor.cs       C# NXOpen implementation
+- InnerCavityExtractor.csproj   Visual Studio Class Library project
+- README.md                     Build/run instructions and validation notes
+
+This environment does not contain Siemens NX 2412 assemblies, so the DLL itself cannot be compiled or runtime-tested here. Build the project on a machine with NX 2412 installed. Check any compiler errors against the NX 2412 API reference/Object Browser and send the exact errors for correction.
